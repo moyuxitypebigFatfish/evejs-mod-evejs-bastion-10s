@@ -5,31 +5,32 @@
     "name": "神秘大肥鱼"
   },
   "category": "玩法",
-  "changelog": "适配3724492。\n解除高安旗舰限制于npc空间站旗舰停靠限制，解除加速轨道限制。",
+  "changelog": "兼容261125.3/ 261126.2",
   "conflicts": [],
   "delisted": false,
-  "description": "泰坦可以装一个会战装备，所有堡垒类装备都改成10s一轮，消耗也等比下降；同时解除高安星门旗舰限制、NPC 空间站泰坦/超级航母停靠限制，以及常规/任务/死亡空间加速轨道的船型限制。",
+  "description": "泰坦可以装一个会战装备，所有堡垒类装备都改成10s一轮，消耗也等比下降；服务端启动时自动把会战装备的船型限制写进客户端 typedogma；同时解除高安星门旗舰限制、NPC 空间站泰坦/超级航母停靠限制，以及常规/任务/死亡空间加速轨道的船型限制。",
   "displayName": "泰坦会战装备 + 旗舰解锁",
   "downloadUrls": [
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-bastion-10s/releases/download/v1.0.4/evejs-bastion-10s-1.0.4.zip"
+      "url": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-bastion-10s/releases/download/v1.0.10/evejs-bastion-10s-1.0.10.zip"
     }
   ],
   "evejsVersions": [
-    "261125.3"
+    "261125.3",
+    "261126.2"
   ],
   "featured": false,
   "highlights": [],
   "history": [],
   "id": "evejs-bastion-10s",
-  "publishedAt": "2026-11-27",
+  "publishedAt": "2026-11-28",
   "readme": [],
   "repo": "https://github.com/moyuxitypebigFatfish/evejs-mod-evejs-bastion-10s",
   "requiresRestart": true,
-  "sha256": "318feccdedf92a9dc4878a09857087cfa1152bf58c5625c5b7686ccd9b5c5132",
-  "sizeBytes": 22880,
+  "sha256": "b14fe9131241b0c855796bc082a9fbca1220e3b9b837dd96845ff5191de638d5",
+  "sizeBytes": 34786,
   "tags": [
     "堡垒装备",
     "会战装备",
@@ -40,5 +41,5 @@
     "高安",
     "加速轨道"
   ],
-  "version": "1.0.4"
+  "version": "1.0.10"
 }
